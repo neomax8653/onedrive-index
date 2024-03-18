@@ -13,7 +13,7 @@ module.exports = {
 
   // Prefix for KV Storage.
   // You can put this in Vercel's environment variable 'KV_PREFIX' without any modification here.
-  kvPrefix: process.env.KV_PREFIX || '',
+  kvPrefix: process.env.KV_PREFIX || 'KV_PREFIX',
 
   // The name of your website. Present alongside your icon.
   // You can put this in Vercel's environment variable 'NEXT_PUBLIC_SITE_TITLE' without any modification here.

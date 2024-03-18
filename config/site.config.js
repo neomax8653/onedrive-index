@@ -17,7 +17,7 @@ module.exports = {
 
   // The name of your website. Present alongside your icon.
   // You can put this in Vercel's environment variable 'NEXT_PUBLIC_SITE_TITLE' without any modification here.
-  title: process.env.NEXT_PUBLIC_SITE_TITLE || 'OneDrive-Index',
+  title: process.env.NEXT_PUBLIC_SITE_TITLE || 'RgMovies',
 
   // [OPTIONAL] This is where you specify the folders that are password protected.
   // It is an array of paths pointing to all the directories in which you have .password set. Check the documentation for details.
@@ -26,7 +26,7 @@ module.exports = {
 
   // [OPTIONAL] If you want to display the email used to contact you on the right side of the nav bar, 
   // you can set it in Vercel's environment variable 'NEXT_PUBLIC_EMAIL' without any modification here.
-  email: process.env.NEXT_PUBLIC_EMAIL ? `mailto:${process.env.NEXT_PUBLIC_EMAIL}` : '',
+  email: process.env.NEXT_PUBLIC_EMAIL ? `mailto:${process.env.NEXT_PUBLIC_EMAIL}` : 'RgMoviesone@anct.website',
   
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double quotes - changing " to \".
   // You can write anything here, and if you like badges, generate some with https://shields.io
@@ -38,7 +38,7 @@ module.exports = {
   links: [
     {
       name: 'GitHub',
-      link: 'https://github.com/iRedScarf/onedrive-index',
+      link: 'https://github.com',
     },
   ],
 
